@@ -37,6 +37,7 @@ export const pageTitle = "Assignment 01";
         alt="View of the Catskill Mountains near Tannersville"
         class="hero-image"
       />
+      </section>
       <section class="section-activity" id="hike">
         <div class="section-text-panel">
           <h2>Hike</h2>
@@ -164,6 +165,64 @@ export const pageTitle = "Assignment 01";
 <style>
   /* importing fonts */
   @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.section-hero{
+  width:100%;
+  height:600px;
+  position:relative;
+  display: flex;
+  align-items: center;
 
+   }
+
+  .hero-image {
+    position:absolute;
+    left: 0;
+    width: 100% ;
+    height: 100%;
+    object-fit: cover;
+    }
+    .hero-text-block {
+      position: relative;
+      background-color: white;
+      z-index: 100;
+      width: 400px;
+      padding: 32px;
+    justify-content: center;
+    }
+
+display:
   
+
+
+.places-grid {
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items: stretch;
+
+
+}
+.places-tiles {
+  background-color: rgb(240, 240, 143);
+  width:200px;
+  height:100px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  flex-direction:column;
+  justfiy-content:center;
+  
+}
+.places-name{
+font-weight: bold;
+font-size: 20px;
+}
+
+.places-location{
+  font-size: 16;
+
+}
+.places-title{
+  margin-top: 0%;
+}
 </style>
