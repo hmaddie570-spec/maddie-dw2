@@ -189,20 +189,70 @@ export const pageTitle = "Assignment 01";
       padding: 32px;
     justify-content: center;
     }
+    .page-container{
+      font-family: "Inter", sans-serif;
+    }
+  header{
+    justify-content: center;
+    display: flex;
+    padding: 8px;
 
-display:
+    .nav-items{
+      display: flex;
+      gap: 16px;
+    }
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+.section-activity{
+  display: flex;
+  max-width:1200px ;
+}
+.section-text-panel{
+  width:400px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:32px;
+  background-color: gainsboro;
+  gap: 20px;
+}
+.section-text-pannel p{
+  margin: 0px;
   
-
+}
+.btn-cta{
+  padding: 8px 16px;
+  border: 2px solid darkblue;
+  color:darkblue;
+  font-weight: bold;
+  text-decoration: none;
+  align-self: flex-start;
+  border-radius: 8px;
+}
+.section-image{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+.section-reverse{
+  flex-direction: row-reverse;
+}
 
 .places-grid {
   display:flex;
   flex-wrap:wrap;
   gap:10px;
-  align-items: stretch;
+  align-items:stretch;
 
 
 }
-.places-tiles {
+.places-tile {
   background-color: rgb(240, 240, 143);
   width:200px;
   height:100px;
