@@ -1,1 +1,16 @@
-<h1> Marvel rivals crosshairs</h1>
+<Layout title={pageTitle}>
+  <h1>Project One Proposal</h1>
+  <p>You can use this file as a template for your assignments.</p>
+  <p>
+ Marvel Rivals Cross Hairs
+  </p>
+  <pre><code>&lt;Layout compact title="Page Title"&gt;</code></pre>
+  <p>
+    
+</Layout>
+
+<style>
+  h1 {
+    color: blue;
+  }
+</style>
