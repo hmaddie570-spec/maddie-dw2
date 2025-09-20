@@ -1,0 +1,29 @@
+---
+const {title}= Astro.props;
+---
+<div class="frame">
+    <h3>My Frame</h3>
+    <slot />
+
+</div>
+
+<style>
+    .frame{
+        border: 2px solid black;
+        padding:5rem;
+        max-width: 400px;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+    }
+    h3{
+        margin: 0;
+        background-color: white;
+        padding: 5rem;
+        display: inline-block;
+        position: relative;
+        border-bottom-right-radius: 5rem;
+        left: -.5rem;
+        top: -.5rem;
+        margin-bottom: -.5rem;
+    }
+</style>
