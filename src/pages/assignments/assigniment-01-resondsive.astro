@@ -310,13 +310,32 @@ font-size: 20px;
 
 
     @media (max-width:800px) {
-      .section-hero {
-  height:250px;
-  position:relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-      
+  .section-hero{
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 32px;
+
+    flex-direction: column;
+  
+  }
+  .hero-text-block{
+    width: 100%;
+    padding: 24px;
+    font-size: 16px;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .hero-image{
+    position: static;
+    max-width: 400px;
+    object-fit: cover;
+    height: auto;
+
+  }
+
+    
+  
+
     }
 
 </style>
