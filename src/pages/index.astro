@@ -3,7 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import Button from "@components/Button.astro";
 import Frame from "@components/frame.astro";
 import Whatsnew from "@components/Whatsnew.astro";
-
+import Accordion from "@components/Accordion.astro";
+import{Content as SampleContent} from "../components/markdown/sample-content.md"
 ---
 
 <Layout title="Home">
@@ -22,4 +23,14 @@ import Whatsnew from "@components/Whatsnew.astro";
   <Whatsnew>
     <h3> trying to lock in xd</h3>
   </Whatsnew>
+  
+  <Accordion title="Sample Accordion">
+    <p> yippe </p> 
+    <h3> mew</h3>
+
+  </Accordion>
+  <SampleContent>
+    
+  </SampleContent>
+
 </Layout>
