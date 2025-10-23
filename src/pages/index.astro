@@ -40,16 +40,22 @@ import AgeChecker from "@components/AgeChecker.astro";
     alert("HELPPPPP");
     const sayHello = function(name) {
       console.log("hello" + name);
+      const blingedName ="***" + name + "***";
+      console.log(blingedName);
       console.log("Hello again!");
+      return blingedName;
     };
     sayHello("Maddie"); 
     sayHello("jit"); 
     sayHello("cat"); 
     sayHello("vro");
-    sayHello("brodie");
+    sayHello("brod");
     
-    
-
+    const myButton = document.querySelector("#my-button");
+    const myFunction = function() {
+      alert("Button clicked!");
+    };
+    myButton.addEventListener("click", myFunction); 
   </script>
 
 </Layout>
