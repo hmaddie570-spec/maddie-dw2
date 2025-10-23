@@ -5,6 +5,7 @@ import Frame from "@components/frame.astro";
 import Whatsnew from "@components/Whatsnew.astro";
 import Accordion from "@components/Accordion.astro";
 import{Content as SampleContent} from "../components/markdown/sample-content.md"
+import AgeChecker from "@components/AgeChecker.astro";
 ---
 
 <Layout title="Home">
@@ -14,6 +15,7 @@ import{Content as SampleContent} from "../components/markdown/sample-content.md"
 <Frame>
 <p>difhehfuhefhenifefhehfheuifhehfuheufheihfuenvhvuhdggrrigru</p>
 </Frame>
+<AgeChecker> This is text in a button</AgeChecker>
    
   
   <p>This is your Design for the Web 2 starter site.</p>
@@ -33,5 +35,15 @@ import{Content as SampleContent} from "../components/markdown/sample-content.md"
   <SampleContent>
     
   </SampleContent>
+  <script>
+    console.log("Hello!");
+    alert("HELPPPPP");
+    const sayHello = function() {
+      console.log("Hello!");
+      console.log("Hello again!");
+    };
+    sayHello(); 
+    
+  </script>
 
 </Layout>

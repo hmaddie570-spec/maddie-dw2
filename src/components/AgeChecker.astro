@@ -1,0 +1,16 @@
+---
+const { color } = Astro.props;
+let fgColor = "black";
+let bgColor = "purple";
+if (color === "red"){
+    fgColor = "darkred";
+    bgColor = "pink";
+}
+
+---
+<button style={`background-color: ${bgColor};color: ${fgColor} `}>
+     <slot/> 
+
+
+</button>
+<button> </button>
