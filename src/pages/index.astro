@@ -6,6 +6,7 @@ import Whatsnew from "@components/Whatsnew.astro";
 import Accordion from "@components/Accordion.astro";
 import{Content as SampleContent} from "../components/markdown/sample-content.md"
 import AgeChecker from "@components/AgeChecker.astro";
+import Button2 from "@components/site/Button2.astro";
 ---
 
 <Layout title="Home">
@@ -16,7 +17,7 @@ import AgeChecker from "@components/AgeChecker.astro";
 <p>difhehfuhefhenifefhehfheuifhehfuheufheihfuenvhvuhdggrrigru</p>
 </Frame>
 <AgeChecker> This is text in a button</AgeChecker>
-   
+   <Button2> Panda</Button2>
   
   <p>This is your Design for the Web 2 starter site.</p>
   <p>
@@ -56,6 +57,13 @@ import AgeChecker from "@components/AgeChecker.astro";
       alert("Button clicked!");
     };
     myButton.addEventListener("click", myFunction); 
+    const button2 = document.querySelector("#button-2");
+    const function2 = function() {
+      alert("Panda button clicked!");
+    };
+    button2.addEventListener("click", function2); 
   </script>
+
+
 
 </Layout>
